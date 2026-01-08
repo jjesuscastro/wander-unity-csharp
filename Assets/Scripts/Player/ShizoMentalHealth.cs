@@ -1,0 +1,76 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+namespace Player
+{
+    public class ShizoMentalHealth : MentalHealthEffect
+    {
+        public float fadeRate;
+        public SpriteRenderer face;
+        public AudioSource whispers;
+        public bool fadeIn = true;
+        public bool fadeOut = false;
+
+        public override void Trigger()
+        {
+            base.Trigger();
+            fadeIn = true;
+            fadeOut = false;
+            Debug.Log("[ShizoMentalHealth.cs] - Enable MH Effect (Schizo).");
+        }
+
+        public override void SetValues()
+        {
+            whispers = GameObject.Find("audioSource").GetComponent<AudioSource>();
+        }
+
+        public override void Stop()
+        {
+            base.Stop();
+            fadeIn = false;
+            fadeOut = true;
+            Debug.Log("[ShizoMentalHealth.cs] - Disable MH Effect (Schizo).");
+        }
+
+        void Update()
+        {
+            Color tempColor;
+            if (isEnabled)
+            {
+                if (fadeIn)
+                {
+                    whispers.volume += fadeRate;
+                    tempColor = face.color;
+                    tempColor.a += fadeRate;
+                    face.color = tempColor;
+
+                    if (tempColor.a >= 0.15)
+                    {
+                        fadeIn = false;
+                    }
+
+                }
+            }
+            else
+            {
+                if (fadeOut)
+                {
+                    whispers.volume -= fadeRate;
+                    tempColor = face.color;
+                    tempColor.a -= fadeRate;
+                    if(tempColor.a < 0)
+                        tempColor.a = 0;
+                    face.color = tempColor;
+
+                    if (tempColor.a <= 0 && whispers.volume <= 0)
+                    {
+                        fadeOut = false;
+                    }
+
+                    fadeIn = true;
+                }
+            }
+        }
+    }
+}
