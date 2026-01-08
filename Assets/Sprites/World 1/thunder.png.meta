@@ -1,13 +1,21 @@
 fileFormatVersion: 2
 guid: 528c962c45e86d04da629a080712a045
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: thunder_0
-    21300002: thunder_1
-    21300004: thunder_2
-    21300006: thunder_3
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: thunder_0
+  - first:
+      213: 21300002
+    second: thunder_1
+  - first:
+      213: 21300004
+    second: thunder_2
+  - first:
+      213: 21300006
+    second: thunder_3
   externalObjects: {}
-  serializedVersion: 9
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -24,9 +32,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -36,8 +47,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -58,11 +69,17 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
-  - serializedVersion: 2
+  - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -72,8 +89,10 @@ TextureImporter:
     crunchedCompression: 1
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -83,8 +102,10 @@ TextureImporter:
     crunchedCompression: 1
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -94,7 +115,22 @@ TextureImporter:
     crunchedCompression: 1
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 100
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -114,6 +150,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 5c4c81185c6837d40b248c5141e0e11b
+      internalID: 21300000
       vertices: []
       indices: 
       edges: []
@@ -134,6 +171,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 7316724828f64cb41a0545e7e218f3d1
+      internalID: 21300002
       vertices: []
       indices: 
       edges: []
@@ -154,6 +192,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: cabe146cb8ba7de49be815dfa0397005
+      internalID: 21300004
       vertices: []
       indices: 
       edges: []
@@ -174,6 +213,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: f25c3d5a048f7b4449006a0ac20b1a7f
+      internalID: 21300006
       vertices: []
       indices: 
       edges: []
@@ -182,13 +222,19 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: a84bb3569a01a854db114c808977ea5e
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
-  spritePackingTag: 
+    secondaryTextures: []
+    nameFileIdTable:
+      thunder_0: 21300000
+      thunder_1: 21300002
+      thunder_2: 21300004
+      thunder_3: 21300006
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

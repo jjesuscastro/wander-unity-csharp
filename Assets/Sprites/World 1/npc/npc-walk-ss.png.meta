@@ -1,32 +1,78 @@
 fileFormatVersion: 2
 guid: 459f416867936174681f422632d67c0e
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: npc-walk-ss_0
-    21300002: npc-walk-ss_1
-    21300004: npc-walk-ss_2
-    21300006: npc-walk-ss_3
-    21300008: npc-walk-ss_4
-    21300010: npc-walk-ss_5
-    21300012: npc-walk-ss_6
-    21300014: npc-walk-ss_7
-    21300016: npc-walk-ss_8
-    21300018: npc-walk-ss_9
-    21300020: npc-walk-ss_10
-    21300022: npc-walk-ss_11
-    21300024: npc-walk-ss_12
-    21300026: npc-walk-ss_13
-    21300028: npc-walk-ss_14
-    21300030: npc-walk-ss_15
-    21300032: npc-walk-ss_16
-    21300034: npc-walk-ss_17
-    21300036: npc-walk-ss_18
-    21300038: npc-walk-ss_19
-    21300040: npc-walk-ss_20
-    21300042: npc-walk-ss_21
-    21300044: npc-walk-ss_22
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: npc-walk-ss_0
+  - first:
+      213: 21300002
+    second: npc-walk-ss_1
+  - first:
+      213: 21300004
+    second: npc-walk-ss_2
+  - first:
+      213: 21300006
+    second: npc-walk-ss_3
+  - first:
+      213: 21300008
+    second: npc-walk-ss_4
+  - first:
+      213: 21300010
+    second: npc-walk-ss_5
+  - first:
+      213: 21300012
+    second: npc-walk-ss_6
+  - first:
+      213: 21300014
+    second: npc-walk-ss_7
+  - first:
+      213: 21300016
+    second: npc-walk-ss_8
+  - first:
+      213: 21300018
+    second: npc-walk-ss_9
+  - first:
+      213: 21300020
+    second: npc-walk-ss_10
+  - first:
+      213: 21300022
+    second: npc-walk-ss_11
+  - first:
+      213: 21300024
+    second: npc-walk-ss_12
+  - first:
+      213: 21300026
+    second: npc-walk-ss_13
+  - first:
+      213: 21300028
+    second: npc-walk-ss_14
+  - first:
+      213: 21300030
+    second: npc-walk-ss_15
+  - first:
+      213: 21300032
+    second: npc-walk-ss_16
+  - first:
+      213: 21300034
+    second: npc-walk-ss_17
+  - first:
+      213: 21300036
+    second: npc-walk-ss_18
+  - first:
+      213: 21300038
+    second: npc-walk-ss_19
+  - first:
+      213: 21300040
+    second: npc-walk-ss_20
+  - first:
+      213: 21300042
+    second: npc-walk-ss_21
+  - first:
+      213: 21300044
+    second: npc-walk-ss_22
   externalObjects: {}
-  serializedVersion: 9
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -43,9 +89,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -55,8 +104,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -77,11 +126,17 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
-  - serializedVersion: 2
+  - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -91,8 +146,10 @@ TextureImporter:
     crunchedCompression: 1
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -102,8 +159,10 @@ TextureImporter:
     crunchedCompression: 1
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: Android
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -113,7 +172,22 @@ TextureImporter:
     crunchedCompression: 1
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 100
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -133,6 +207,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 23d9ca0542513a046b704784a45bb992
+      internalID: 21300000
       vertices: []
       indices: 
       edges: []
@@ -153,6 +228,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 1098e7dd3e72acc44a970ed2b34919dc
+      internalID: 21300002
       vertices: []
       indices: 
       edges: []
@@ -173,6 +249,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: b47a019ccd6ba1d47af9256c02eaa71d
+      internalID: 21300004
       vertices: []
       indices: 
       edges: []
@@ -193,6 +270,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: e221505fb2b348e4e98991745c756f5d
+      internalID: 21300006
       vertices: []
       indices: 
       edges: []
@@ -213,6 +291,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 691432ad54d3c6342982a934b02841e1
+      internalID: 21300008
       vertices: []
       indices: 
       edges: []
@@ -233,6 +312,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 81cb96a788aed2140b13c2b8572484a5
+      internalID: 21300010
       vertices: []
       indices: 
       edges: []
@@ -253,6 +333,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 1bbdeb607b8356f4085b0b9529dbc326
+      internalID: 21300012
       vertices: []
       indices: 
       edges: []
@@ -273,6 +354,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: f2427881043413d49a72ef43c83b16dd
+      internalID: 21300014
       vertices: []
       indices: 
       edges: []
@@ -293,6 +375,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 31e7ea8d5f8015d4cb9761f560d18b1d
+      internalID: 21300016
       vertices: []
       indices: 
       edges: []
@@ -313,6 +396,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 350498257d9006947a436b5790b9013d
+      internalID: 21300018
       vertices: []
       indices: 
       edges: []
@@ -333,6 +417,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: fafcaf56d3ef68e45961c530fa741396
+      internalID: 21300020
       vertices: []
       indices: 
       edges: []
@@ -353,6 +438,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 5db012b5884475b4c838b588a5d56161
+      internalID: 21300022
       vertices: []
       indices: 
       edges: []
@@ -373,6 +459,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: e69bf4bf9f5e4e445a966376003cb1c8
+      internalID: 21300024
       vertices: []
       indices: 
       edges: []
@@ -393,6 +480,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 8cc72775472764147a58c6538554f03b
+      internalID: 21300026
       vertices: []
       indices: 
       edges: []
@@ -413,6 +501,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 4566328c3c5525345872f9c176c5923f
+      internalID: 21300028
       vertices: []
       indices: 
       edges: []
@@ -433,6 +522,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 2267f78d135739841912b8d1e59a8721
+      internalID: 21300030
       vertices: []
       indices: 
       edges: []
@@ -453,6 +543,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 781a450128a0c8642bde5644e58cb29c
+      internalID: 21300032
       vertices: []
       indices: 
       edges: []
@@ -473,6 +564,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: f9c2d467b5d355945abdcd9e673aae97
+      internalID: 21300034
       vertices: []
       indices: 
       edges: []
@@ -493,6 +585,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: e0e92f43afbbcb04ab3ccbff306884d3
+      internalID: 21300036
       vertices: []
       indices: 
       edges: []
@@ -513,6 +606,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 09f23bebb589d974e9e36f3807bc7e1d
+      internalID: 21300038
       vertices: []
       indices: 
       edges: []
@@ -533,6 +627,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: aa0d033099594b24693970230b647e33
+      internalID: 21300040
       vertices: []
       indices: 
       edges: []
@@ -553,6 +648,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 60ccc608c0c903247aaf0f6e3ebe6c6d
+      internalID: 21300042
       vertices: []
       indices: 
       edges: []
@@ -573,6 +669,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: f0517e03af294d04095f7f1ed899705e
+      internalID: 21300044
       vertices: []
       indices: 
       edges: []
@@ -581,13 +678,38 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: ba5c43c0ad7db364584c46d208ef1f00
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
-  spritePackingTag: 
+    secondaryTextures: []
+    nameFileIdTable:
+      npc-walk-ss_0: 21300000
+      npc-walk-ss_1: 21300002
+      npc-walk-ss_10: 21300020
+      npc-walk-ss_11: 21300022
+      npc-walk-ss_12: 21300024
+      npc-walk-ss_13: 21300026
+      npc-walk-ss_14: 21300028
+      npc-walk-ss_15: 21300030
+      npc-walk-ss_16: 21300032
+      npc-walk-ss_17: 21300034
+      npc-walk-ss_18: 21300036
+      npc-walk-ss_19: 21300038
+      npc-walk-ss_2: 21300004
+      npc-walk-ss_20: 21300040
+      npc-walk-ss_21: 21300042
+      npc-walk-ss_22: 21300044
+      npc-walk-ss_3: 21300006
+      npc-walk-ss_4: 21300008
+      npc-walk-ss_5: 21300010
+      npc-walk-ss_6: 21300012
+      npc-walk-ss_7: 21300014
+      npc-walk-ss_8: 21300016
+      npc-walk-ss_9: 21300018
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
