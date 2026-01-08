@@ -75,6 +75,7 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
 ### VisualStudioCode ###
+.vscode/
 .vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
@@ -93,4 +94,8 @@ crashlytics-build.properties
 .history
 .ionide
 
+.log
+.sln
+.csproj
+.collabignore
 # End of https://www.toptal.com/developers/gitignore/api/unity,visualstudiocode
